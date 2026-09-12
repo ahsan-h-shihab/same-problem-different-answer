@@ -1,0 +1,12 @@
+{
+  "description": "SHA256 of the LaTeX macro and table files that code/reproduce_analysis.sh regenerates from results/; together they contain every number reported in the paper. The files themselves are not distributed.",
+  "files": {
+    "paper/autonums.tex": "5d497224e3b8918def5cab436513f40be654e20a91c51937cf46347be7cac673",
+    "paper/autonums_llm.tex": "25adff620beaab47e46d2aad03bc17a4d7ca331bbb79bb52bb0ee66ea38b8454",
+    "paper/tables/tab_consistency__test.tex": "c538e94cdb5ae1501bca2de13f6c60560ae2f8aaffc8c609cd23cdc0b052db8e",
+    "paper/tables/tab_examples.tex": "a0b68f69eb36eb8e10e75a5cc45155012e0c93ab6360c40846b7aff14a343555",
+    "paper/tables/tab_llm.tex": "a169abc84c08c2a6356d53a4ac159d28bc3e4fbf5544e9d6d884733ec000282c",
+    "paper/tables/tab_perlang__test.tex": "e1cb4b7873a93ca42a44a2f936dfd7e57179dcb55b393d618059abbfc1fe72be",
+    "paper/tables/tab_phenomena__test.tex": "21913c19e56195cb8206d409208cf3fbb4fc8727a1c36b38579fc6aa5b73edc7"
+  }
+}

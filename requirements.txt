@@ -1,0 +1,15 @@
+# Environment used for the reported results: Python 3.12.1, CPU only.
+# Install the CPU build of PyTorch first, for example:
+#   pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cpu
+# The python/numpy/torch/transformers/datasets versions are also recorded in
+# results/provenance.json.
+numpy==2.4.4
+torch==2.10.0
+transformers==4.57.1
+tokenizers==0.22.1
+sentencepiece==0.2.2
+protobuf==6.33.1
+datasets==5.0.0
+pyarrow==24.0.0
+huggingface_hub==0.35.3
+matplotlib==3.10.9

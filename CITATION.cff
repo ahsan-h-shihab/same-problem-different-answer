@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper given under preferred-citation."
+type: software
+title: "Same Problem, Different Answer: reproducibility artifacts"
+version: 1.0.0
+date-released: 2026-09-13
+license: MIT
+repository-code: "https://github.com/ahsan-h-shihab/same-problem-different-answer"
+abstract: >-
+  Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for
+  measuring item-level cross-lingual consistency of multilingual natural language inference on
+  the parallel XNLI test set. Code is MIT-licensed; experimental outputs and documentation are
+  CC BY 4.0 with third-party exceptions (see LICENSE-OUTPUTS.md).
+keywords:
+  - multilingual NLP
+  - natural language inference
+  - cross-lingual consistency
+  - XNLI
+  - evaluation
+  - reproducibility
+authors:
+  - family-names: Shihab
+    given-names: Ahsan Habib
+    orcid: "https://orcid.org/0009-0008-1157-6335"
+    affiliation: "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University"
+  - family-names: Ospan
+    given-names: Assel
+    orcid: "https://orcid.org/0000-0002-1860-6997"
+    affiliation: "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University"
+  - family-names: Mussa
+    given-names: Aman
+    orcid: "https://orcid.org/0009-0001-9972-7677"
+    affiliation: "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University"
+  - family-names: Mansurova
+    given-names: Madina
+    orcid: "https://orcid.org/0000-0002-9680-2758"
+    affiliation: "Faculty of Mechanics and Mathematics, Al-Farabi Kazakh National University"
+preferred-citation:
+  type: conference-paper
+  title: "Same Problem, Different Answer: Accuracy Hides Cross-Lingual Inconsistency in Multilingual Inference"
+  year: 2026
+  conference:
+    name: "LUHME 2026: Language Understanding in the Human-Machine Era (workshop at EMNLP 2026)"
+  authors:
+    - family-names: Shihab
+      given-names: Ahsan Habib
+      orcid: "https://orcid.org/0009-0008-1157-6335"
+    - family-names: Ospan
+      given-names: Assel
+      orcid: "https://orcid.org/0000-0002-1860-6997"
+    - family-names: Mussa
+      given-names: Aman
+      orcid: "https://orcid.org/0009-0001-9972-7677"
+    - family-names: Mansurova
+      given-names: Madina
+      orcid: "https://orcid.org/0000-0002-9680-2758"

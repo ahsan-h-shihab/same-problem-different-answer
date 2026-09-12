@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.npz binary
+*.pdf binary
+# raw API responses are kept byte-for-byte as recorded (they are SHA256-verified)
+results/llm_raw__*.jsonl -text

@@ -1,0 +1,39 @@
+{
+  "title": "Same Problem, Different Answer: reproducibility artifacts",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "<p>Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for the paper \"Same Problem, Different Answer: Accuracy Hides Cross-Lingual Inconsistency in Multilingual Inference\" (LUHME 2026 workshop at EMNLP 2026). The artifact measures item-level cross-lingual consistency of multilingual natural language inference on the parallel XNLI test set (5,010 items in 15 languages) for two open-weight models and three hosted LLMs, and regenerates every reported number from the committed outputs.</p><p>Licensing: code under the MIT License; experimental outputs and documentation under CC BY 4.0, except XNLI-derived content (CC BY-NC 4.0) and hosted-LLM outputs (provider terms). See LICENSE and LICENSE-OUTPUTS.md.</p>",
+  "creators": [
+    {
+      "name": "Shihab, Ahsan Habib",
+      "affiliation": "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University",
+      "orcid": "0009-0008-1157-6335"
+    },
+    {
+      "name": "Ospan, Assel",
+      "affiliation": "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University",
+      "orcid": "0000-0002-1860-6997"
+    },
+    {
+      "name": "Mussa, Aman",
+      "affiliation": "Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University",
+      "orcid": "0009-0001-9972-7677"
+    },
+    {
+      "name": "Mansurova, Madina",
+      "affiliation": "Faculty of Mechanics and Mathematics, Al-Farabi Kazakh National University",
+      "orcid": "0000-0002-9680-2758"
+    }
+  ],
+  "keywords": [
+    "multilingual NLP",
+    "natural language inference",
+    "cross-lingual consistency",
+    "XNLI",
+    "evaluation",
+    "reproducibility"
+  ],
+  "notes": "Funding: this research was funded by the Committee of Science of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. BR24993001)."
+}

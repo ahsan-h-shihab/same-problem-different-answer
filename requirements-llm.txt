@@ -1,0 +1,4 @@
+# Only needed to re-query the hosted LLMs (code/run_llm.sh). Offline re-scoring of the
+# committed responses (code/rescore_llm.py) needs only requirements.txt.
+-r requirements.txt
+openai==2.31.0

@@ -1,0 +1,31 @@
+{
+  "sonnet5": {
+    "provider": "openrouter",
+    "model": "anthropic/claude-sonnet-5",
+    "temperature": 1.0,
+    "n_items": 300,
+    "n_langs": 15,
+    "invalid": 0,
+    "invalid_frac": 0.0
+  },
+  "gpt56": {
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6",
+    "temperature": 1.0,
+    "reasoning_effort": "minimal",
+    "n_items": 300,
+    "n_langs": 15,
+    "invalid": 1,
+    "invalid_frac": 0.00022222222222222223
+  },
+  "gemini": {
+    "provider": "openrouter",
+    "model": "google/gemini-3.1-pro-preview",
+    "temperature": 1.0,
+    "reasoning_effort": "low",
+    "n_items": 300,
+    "n_langs": 15,
+    "invalid": 4,
+    "invalid_frac": 0.0008888888888888889
+  }
+}

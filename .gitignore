@@ -1,0 +1,16 @@
+# credentials
+.env
+.secrets/
+
+# Python
+__pycache__/
+*.pyc
+
+# fetched data (not redistributed; see code/fetch_xnli.py)
+data/
+
+# regenerated outputs (see code/reproduce_analysis.sh)
+paper/
+rerun/
+rerun_llm/
+rescored/

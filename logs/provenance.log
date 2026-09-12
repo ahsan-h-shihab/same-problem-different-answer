@@ -1,0 +1,34 @@
+# Provenance (SHA256) — generated 2026-09-12T23:39:13+00:00
+# env: python=3.12.1 torch=2.10.0+cpu transformers=4.57.1 datasets=5.0.0 numpy=2.4.4
+# 20 artifacts
+
+## sampled_subset
+c32aa34d38b9e3d1daa584e84b3a2854262214847b98103822beec146ed57d97          3068  llm_subset.json
+31857d5f274047420a8cb4486c75cf6049ae3e370a3dc7c325ee9f9d66e4fd35       2263212  subset_content(300x15 parallel items)
+
+## raw_predictions
+5abe08593c4b2e82be8df3487ca07958ae8c9dde707bc0c4d6cabf01b2412802        901800  preds__mdeberta-base__test.npz:probs
+3a1af4b2e85060c5dc6fceb0d34ac2c5d0ec58ca458809d605eeac8c07b92343        901800  preds__minilm-l6__test.npz:probs
+5ba3106a4c14fdf2e0b56ada0aa21db41b78f83e524e7c43c09c81441c4c9ef5        304286  llm_raw__gemini.jsonl
+4c725d7ffc5c7ea39d0b49db466e99a03944508ffb7834dcbc9365ebf18bd736        415884  llm_raw__gpt56.jsonl
+e1211659cf1fac6dfeb02d47e66d5074822b0a904dcde27d899f195739d1299c        303615  llm_raw__sonnet5.jsonl
+
+## parsed_predictions
+7ee6a7bb694ddf226a3e6c68c18c513758f60d2c59e2870b8ae7167022631524          4500  preds__gemini__test300.npz:preds
+64e209224da90f3ad92c5a2796aae833c9b2efde482f42ded35cf09755e9e840          4500  preds__gpt56__test300.npz:preds
+2bc5b190ac82f6827f8745bb9dbfc310549c3887958728ddd922a77f850bb9b9         75150  preds__mdeberta-base__test.npz:preds
+57b72ac372236535285c2f66ae28736b951cbedbdb7171e2462e5c106ab11130         75150  preds__minilm-l6__test.npz:preds
+5fd2e397a15e4660c20bcceb27367a2aa01afcd8945890cca65b0fdf35213045          4500  preds__sonnet5__test300.npz:preds
+
+## final_metrics
+b35fe32e37441602101280e7ec62fa5e76f30a395e93d1e04117b89ea1a63990          7669  analysis__test.json
+42e41ef8cece39ccdaccbd64d9abbf739b696153ee287c68ad4ee3d91eb4855e         11952  analysis_subset.json
+da11aa167c37f1cc872080b39ad8b430aa0d392e548e6ca6a2b9a8b96e927bc7           686  llm_models.json
+
+## prediction_file
+2858046cff984ba6cb1e6b1ac0b485f21763fc56e7a54d5a630e27aee84d02fc          2208  preds__gemini__test300.npz
+e5feed48fae4ee71956253f18b571bbf9822a990f9618a9b95ffca3e35f4e2ba          2232  preds__gpt56__test300.npz
+268ad46735d99448a01ad49656bf77a27a16e16995cec018508b1e01babead2c        824218  preds__mdeberta-base__test.npz
+6744ca5e9005ce2321c25813b10d99249e1b51d7ed106d1d0b40c7f1c0596bf5        847982  preds__minilm-l6__test.npz
+ee471e979bc2f609220bb43865074a99040d5124067ca403358b233096411ff2          2213  preds__sonnet5__test300.npz
+

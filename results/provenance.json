@@ -1,0 +1,164 @@
+{
+  "generated_utc": "2026-09-12T23:39:13+00:00",
+  "environment": {
+    "python": "3.12.1",
+    "numpy": "2.4.4",
+    "torch": "2.10.0+cpu",
+    "transformers": "4.57.1",
+    "datasets": "5.0.0"
+  },
+  "n_artifacts": 20,
+  "artifacts": [
+    {
+      "category": "sampled_subset",
+      "artifact": "llm_subset.json",
+      "sha256": "c32aa34d38b9e3d1daa584e84b3a2854262214847b98103822beec146ed57d97",
+      "bytes": 3068
+    },
+    {
+      "category": "sampled_subset",
+      "artifact": "subset_content(300x15 parallel items)",
+      "sha256": "31857d5f274047420a8cb4486c75cf6049ae3e370a3dc7c325ee9f9d66e4fd35",
+      "bytes": 2263212,
+      "n_items": 300
+    },
+    {
+      "category": "prediction_file",
+      "artifact": "preds__gemini__test300.npz",
+      "sha256": "2858046cff984ba6cb1e6b1ac0b485f21763fc56e7a54d5a630e27aee84d02fc",
+      "bytes": 2208
+    },
+    {
+      "category": "parsed_predictions",
+      "artifact": "preds__gemini__test300.npz:preds",
+      "sha256": "7ee6a7bb694ddf226a3e6c68c18c513758f60d2c59e2870b8ae7167022631524",
+      "bytes": 4500,
+      "shape": [
+        300,
+        15
+      ]
+    },
+    {
+      "category": "prediction_file",
+      "artifact": "preds__gpt56__test300.npz",
+      "sha256": "e5feed48fae4ee71956253f18b571bbf9822a990f9618a9b95ffca3e35f4e2ba",
+      "bytes": 2232
+    },
+    {
+      "category": "parsed_predictions",
+      "artifact": "preds__gpt56__test300.npz:preds",
+      "sha256": "64e209224da90f3ad92c5a2796aae833c9b2efde482f42ded35cf09755e9e840",
+      "bytes": 4500,
+      "shape": [
+        300,
+        15
+      ]
+    },
+    {
+      "category": "prediction_file",
+      "artifact": "preds__mdeberta-base__test.npz",
+      "sha256": "268ad46735d99448a01ad49656bf77a27a16e16995cec018508b1e01babead2c",
+      "bytes": 824218
+    },
+    {
+      "category": "raw_predictions",
+      "artifact": "preds__mdeberta-base__test.npz:probs",
+      "sha256": "5abe08593c4b2e82be8df3487ca07958ae8c9dde707bc0c4d6cabf01b2412802",
+      "bytes": 901800,
+      "shape": [
+        5010,
+        15,
+        3
+      ]
+    },
+    {
+      "category": "parsed_predictions",
+      "artifact": "preds__mdeberta-base__test.npz:preds",
+      "sha256": "2bc5b190ac82f6827f8745bb9dbfc310549c3887958728ddd922a77f850bb9b9",
+      "bytes": 75150,
+      "shape": [
+        5010,
+        15
+      ]
+    },
+    {
+      "category": "prediction_file",
+      "artifact": "preds__minilm-l6__test.npz",
+      "sha256": "6744ca5e9005ce2321c25813b10d99249e1b51d7ed106d1d0b40c7f1c0596bf5",
+      "bytes": 847982
+    },
+    {
+      "category": "raw_predictions",
+      "artifact": "preds__minilm-l6__test.npz:probs",
+      "sha256": "3a1af4b2e85060c5dc6fceb0d34ac2c5d0ec58ca458809d605eeac8c07b92343",
+      "bytes": 901800,
+      "shape": [
+        5010,
+        15,
+        3
+      ]
+    },
+    {
+      "category": "parsed_predictions",
+      "artifact": "preds__minilm-l6__test.npz:preds",
+      "sha256": "57b72ac372236535285c2f66ae28736b951cbedbdb7171e2462e5c106ab11130",
+      "bytes": 75150,
+      "shape": [
+        5010,
+        15
+      ]
+    },
+    {
+      "category": "prediction_file",
+      "artifact": "preds__sonnet5__test300.npz",
+      "sha256": "ee471e979bc2f609220bb43865074a99040d5124067ca403358b233096411ff2",
+      "bytes": 2213
+    },
+    {
+      "category": "parsed_predictions",
+      "artifact": "preds__sonnet5__test300.npz:preds",
+      "sha256": "5fd2e397a15e4660c20bcceb27367a2aa01afcd8945890cca65b0fdf35213045",
+      "bytes": 4500,
+      "shape": [
+        300,
+        15
+      ]
+    },
+    {
+      "category": "raw_predictions",
+      "artifact": "llm_raw__gemini.jsonl",
+      "sha256": "5ba3106a4c14fdf2e0b56ada0aa21db41b78f83e524e7c43c09c81441c4c9ef5",
+      "bytes": 304286
+    },
+    {
+      "category": "raw_predictions",
+      "artifact": "llm_raw__gpt56.jsonl",
+      "sha256": "4c725d7ffc5c7ea39d0b49db466e99a03944508ffb7834dcbc9365ebf18bd736",
+      "bytes": 415884
+    },
+    {
+      "category": "raw_predictions",
+      "artifact": "llm_raw__sonnet5.jsonl",
+      "sha256": "e1211659cf1fac6dfeb02d47e66d5074822b0a904dcde27d899f195739d1299c",
+      "bytes": 303615
+    },
+    {
+      "category": "final_metrics",
+      "artifact": "analysis__test.json",
+      "sha256": "b35fe32e37441602101280e7ec62fa5e76f30a395e93d1e04117b89ea1a63990",
+      "bytes": 7669
+    },
+    {
+      "category": "final_metrics",
+      "artifact": "analysis_subset.json",
+      "sha256": "42e41ef8cece39ccdaccbd64d9abbf739b696153ee287c68ad4ee3d91eb4855e",
+      "bytes": 11952
+    },
+    {
+      "category": "final_metrics",
+      "artifact": "llm_models.json",
+      "sha256": "da11aa167c37f1cc872080b39ad8b430aa0d392e548e6ca6a2b9a8b96e927bc7",
+      "bytes": 686
+    }
+  ]
+}

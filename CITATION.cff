@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or these results, please cite the paper given under preferred-citation."
 type: software
 title: "Same Problem, Different Answer: reproducibility artifacts"
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-09-13
 license: MIT
 repository-code: "https://github.com/ahsan-h-shihab/same-problem-different-answer"

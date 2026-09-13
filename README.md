@@ -9,10 +9,37 @@ model give the *same* label to the same item in every language? Two open-weight 
 NLI models are the primary study; three hosted frontier LLMs on a fixed 300-item subset are a
 robustness check.
 
-| Model (XNLI test) | Mean per-language accuracy | Unanimous across 15 languages | Items whose prediction flips |
-|---|---|---|---|
-| mDeBERTa-v3-base | 80.8% | 38.9% | 61.1% |
-| MiniLM-L6 | 71.3% | 21.9% | 78.1% |
+## Key Results
+
+| Model (XNLI test) | Accuracy | Pairwise agreement | Unanimity | Fleiss' κ | Flip rate | Majority correct on flipped items | r (flips vs. resources) |
+|---|---|---|---|---|---|---|---|
+| mDeBERTa-v3-base | 80.8% | 79.9% | 38.9% | 0.70 | 61.1% | 80.2% | −0.67 |
+| MiniLM-L6 | 71.3% | 69.9% | 21.9% | 0.55 | 78.1% | 76.0% | −0.69 |
+
+Accuracy is the mean per-language accuracy; unanimity is the share of items labelled
+identically in all 15 languages, and the flip rate is its complement. *Majority correct on
+flipped items* is the share of non-unanimous items whose cross-lingual majority label is
+correct. *r* correlates per-language flip involvement with a pretraining-resource rank.
+
+<p align="center">
+  <img src="figures/fig1_acc_vs_consistency__test.png" width="560" alt="Bar chart comparing mean per-language accuracy, mean cross-lingual agreement, and unanimity for MiniLM-L6 and mDeBERTa-base">
+</p>
+<p align="center"><b>Accuracy hides instability.</b> Mean per-language accuracy is far higher than
+cross-lingual agreement and unanimity.</p>
+
+<table>
+  <tr>
+    <td width="55%"><img src="figures/fig2_phenomena__test.png" alt="Cross-lingual flip rate on items with and without negation, modality, and quantifier cues, with risk ratios"></td>
+    <td width="45%"><img src="figures/fig3_resource__test.png" alt="Per-language flip involvement against pretraining-resource rank, with a negative trend"></td>
+  </tr>
+  <tr>
+    <td><b>Not concentrated on pragmatic cues</b> (mDeBERTa-v3-base). Items with negation or
+    quantifier cues flip less than cue-free items; risk ratios and significance annotated. The
+    pattern replicates in MiniLM-L6.</td>
+    <td><b>Instability falls on lower-resource languages</b> (mDeBERTa-v3-base). Per-language
+    flip involvement against a pretraining-resource rank.</td>
+  </tr>
+</table>
 
 ## Quick start (minutes, CPU, no API keys)
 
@@ -63,7 +90,7 @@ code/      pipeline, analysis, and verification tooling
 results/   per-item predictions, raw LLM responses, metrics, provenance.json,
            expected hashes of the regenerated paper macros/tables
 logs/      provenance.log (human-readable SHA256 record)
-figures/   figure PDFs
+figures/   figure PDFs, with PNG previews rendered from them for this README
 ```
 
 The manuscript itself is not part of this repository; the published paper will be available

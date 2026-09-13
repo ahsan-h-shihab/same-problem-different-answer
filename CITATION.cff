@@ -4,9 +4,7 @@ type: software
 title: "Same Problem, Different Answer: reproducibility artifacts"
 version: 1.0.1
 date-released: 2026-09-13
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 repository-code: "https://github.com/ahsan-h-shihab/same-problem-different-answer"
 abstract: >-
   Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for

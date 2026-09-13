@@ -3,8 +3,6 @@
 Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for the
 paper of the same title (LUHME 2026 workshop at EMNLP 2026).
 
-Repository: <https://github.com/ahsan-h-shihab/same-problem-different-answer>
-
 The paper measures **item-level cross-lingual consistency** on the parallel XNLI test set
 (5,010 premise–hypothesis items, each in 15 languages with one shared gold label): does a
 model give the *same* label to the same item in every language? Two open-weight zero-shot

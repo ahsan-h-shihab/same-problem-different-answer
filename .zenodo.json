@@ -1,10 +1,10 @@
 {
   "title": "Same Problem, Different Answer: reproducibility artifacts",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "access_right": "open",
-  "license": "MIT",
-  "description": "<p>Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for the paper \"Same Problem, Different Answer: Accuracy Hides Cross-Lingual Inconsistency in Multilingual Inference\" (LUHME 2026 workshop at EMNLP 2026). The artifact measures item-level cross-lingual consistency of multilingual natural language inference on the parallel XNLI test set (5,010 items in 15 languages) for two open-weight models and three hosted LLMs, and regenerates every reported number from the committed outputs.</p><p>Licensing: code under the MIT License; experimental outputs and documentation under CC BY 4.0, except XNLI-derived content (CC BY-NC 4.0) and hosted-LLM outputs (provider terms). See LICENSE and LICENSE-OUTPUTS.md.</p>",
+  "license": "other-open",
+  "description": "<p>Code, per-item predictions, raw LLM responses, analysis outputs, and SHA256 provenance for the paper \"Same Problem, Different Answer: Accuracy Hides Cross-Lingual Inconsistency in Multilingual Inference\" (LUHME 2026 workshop at EMNLP 2026). The artifact measures item-level cross-lingual consistency of multilingual natural language inference on the parallel XNLI test set (5,010 items in 15 languages) for two open-weight models and three hosted LLMs, and regenerates every reported number from the committed outputs.</p><p>Licensing (mixed): source code is released under the MIT License; the authors' experimental outputs and documentation are released under CC BY 4.0. Third-party content keeps its own terms: XNLI-derived content (40 example pairs and gold labels) is under CC BY-NC 4.0, and hosted-LLM outputs are subject to the providers' terms. See LICENSE and LICENSE-OUTPUTS.md in the archive.</p>",
   "creators": [
     {
       "name": "Shihab, Ahsan Habib",
@@ -35,5 +35,5 @@
     "evaluation",
     "reproducibility"
   ],
-  "notes": "Funding: this research was funded by the Committee of Science of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. BR24993001)."
+  "notes": "Licences: code MIT (LICENSE); experimental outputs and documentation CC BY 4.0 (LICENSE-OUTPUTS.md); XNLI-derived content CC BY-NC 4.0; hosted-LLM outputs subject to provider terms. Funding: this research was funded by the Committee of Science of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. BR24993001)."
 }

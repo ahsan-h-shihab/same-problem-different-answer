@@ -150,6 +150,8 @@ applied for release and lists the original hashes of the six changed files.
 Please cite the paper; `CITATION.cff` holds the citation metadata. Bibliographic details
 (proceedings pages, DOI) will be added once the proceedings are published.
 
+Software/artifact DOI (Zenodo, v1.0.2): [10.5281/zenodo.22747570](https://doi.org/10.5281/zenodo.22747570)
+
 ## Licence
 
 Code is released under the MIT License (`LICENSE`). Experimental outputs and documentation are
